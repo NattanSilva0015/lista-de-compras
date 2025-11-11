@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { ChevronRightIcon, TrashIcon } from "lucide-react";
 import Button from "./Button";
+import { CheckIcon } from "lucide-react";
 
 function Products({ products, onProductClick, onDeleteProductClick }) {
   const navigate = useNavigate();
@@ -17,11 +18,13 @@ function Products({ products, onProductClick, onDeleteProductClick }) {
       {products.map((products) => (
         <li key={products.id} className="flex gap-2">
           <button
-            onClick={() => onProductClick(products)}
-            className={`bg-slate-400 text-left w-full text-white p-2 rounded-md ${
+            onClick={() => onProductClick(products.id)}
+            className={`bg-slate-400 text-left w-full flex items-center gap-2 text-white p-2 rounded-md ${
               products.isPurchased && "line-through"
             }`}
           >
+            {products.isPurchased && <CheckIcon></CheckIcon>}
+
             {products.name}
           </button>
 
