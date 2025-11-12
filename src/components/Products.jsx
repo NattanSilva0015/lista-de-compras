@@ -14,12 +14,12 @@ function Products({ products, onProductClick, onDeleteProductClick }) {
   }
 
   return (
-    <ul className="space-y-4 p-6 bg-slate-200 rounded-md shadow">
+    <ul className="space-y-4 p-6 bg-yellow-50 rounded-md shadow">
       {products.map((products) => (
         <li key={products.id} className="flex gap-2">
           <button
             onClick={() => onProductClick(products.id)}
-            className={`bg-slate-400 text-left w-full flex items-center gap-2 text-white p-2 rounded-md ${
+            className={`bg-red-400 text-left w-full flex items-center gap-2 text-white p-2 rounded-md ${
               products.isPurchased && "line-through"
             }`}
           >
@@ -28,15 +28,11 @@ function Products({ products, onProductClick, onDeleteProductClick }) {
             {products.name}
           </button>
 
-          <Button
-            onClick={() => onSeeDetailsClick(products)}
-          >
+          <Button onClick={() => onSeeDetailsClick(products)}>
             <ChevronRightIcon />
           </Button>
 
-          <Button
-            onClick={() => onDeleteProductClick(products.id)}
-          >
+          <Button onClick={() => onDeleteProductClick(products.id)}>
             <TrashIcon />
           </Button>
         </li>

@@ -1,5 +1,5 @@
 function Title(props) {
-    return <h1 {...props} className="text-3xl text-slate-100 font-bold text-center">{props.children}</h1>;
+    return <h1 {...props} className="text-3xl text-slate-50 font-bold text-center bg-red-500 rounded-md">{props.children}</h1>;
 }
 
 
