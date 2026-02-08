@@ -1,8 +1,21 @@
-# React + Vite
+# 🛒 Lista de Compras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Resumo
+
+Este é um projeto simples de uma **lista de compras** usando React + Vite, desenvolvido somente para aprender e praticar conceitos básicos de React.
+
+Foram utilizadas as seguintes tecnologias:
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+
+Além de ser usado também o cache local para guardar os dados no próprio dispositivo que esta acessando.
+
+---
+
+#### Clique aqui para a aplicação funcionando:
+[![Ver aplicação](https://img.shields.io/badge/Ver%20Aplicação-Online-brightgreen)](https://seu-link-aqui.vercel.app)
