@@ -18,4 +18,4 @@ Além de ser usado também o cache local para guardar os dados no próprio dispo
 ---
 
 #### Clique aqui para a aplicação funcionando:
-[![Ver aplicação](https://img.shields.io/badge/Ver%20Aplicação-Online-brightgreen)]([https://seu-link-aqui.vercel.app](https://lista-de-compras-alpha-opal.vercel.app))
+[![Ver aplicação](https://img.shields.io/badge/Ver%20Aplicação-Online-brightgreen)](https://lista-de-compras-alpha-opal.vercel.app)
