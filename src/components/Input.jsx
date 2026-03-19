@@ -1,7 +1,7 @@
 function Input(props) {
     return (
       <input
-        className="border border-red-400 outline-red-400 px-4 py-2 rounded-md"
+        className="border border-[#4f46e5] outline-[#0f172a] px-4 py-2 rounded-md"
         {...props}
       />
     );

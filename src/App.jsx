@@ -47,7 +47,7 @@ function App() {
   }
 
   return (
-    <div className="w-screen h-screen bg-orange-100 flex justify-center p-6">
+    <div className="w-screen h-screen bg-[#0f172a] flex justify-center p-6">
       <div className="w-[500px] mx-auto space-y-4">
         <Title>Lista de Compras</Title>
 

@@ -14,12 +14,12 @@ function Products({ products, onProductClick, onDeleteProductClick }) {
   }
 
   return (
-    <ul className="space-y-4 p-6 bg-yellow-50 rounded-md shadow">
+    <ul className="space-y-4 p-6 bg-[rgba(255,255,255,0.05)] rounded-md shadow">
       {products.map((products) => (
         <li key={products.id} className="flex gap-2">
           <button
             onClick={() => onProductClick(products.id)}
-            className={`bg-red-400 text-left w-full flex items-center gap-2 text-white p-2 rounded-md ${
+            className={`bg-[#4f46e5] text-left w-full flex items-center gap-2 text-white p-2 rounded-md ${
               products.isPurchased && "line-through"
             }`}
           >
