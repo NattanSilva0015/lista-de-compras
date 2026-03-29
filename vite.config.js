@@ -16,7 +16,6 @@ export default defineConfig({
         name: "Lista de Compras",
         short_name: "Compras",
         description: "Lista de compras simples e funcional",
-        theme_color: "#f97316",
         background_color: "#ffffff",
         display: "standalone",
         start_url: "/",
